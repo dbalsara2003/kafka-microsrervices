@@ -1,0 +1,178 @@
+.App {
+  text-align: center;
+}
+
+#root.bg-light {
+  background-color: white;
+  color: black;
+}
+
+#root.bg-dark {
+  background-color: black;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.all-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.all-stats-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.individual-stat {
+  width: 61%;
+}
+
+.events-stats-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.events-stats {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.stats-params {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-right: 20px;
+}
+
+.stats-values {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.stats-param {
+  width: 100%;
+  font-size: 1.3em;
+  font-style: solid;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.stats-value {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.health-button {
+  margin-bottom: 15px;
+}
+
+.app-statuses, .time-passed-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.app-status-label , .time-passed-label {
+  border-style: solid;
+  margin: 0;
+  padding: 6px;
+}
+
+.app-status , .time-passed {
+  border-style: groove;
+  margin: 0;
+  padding: 2px;
+}
+
+.extra-features {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.background-button-wrapper {
+  height: 100%;
+  border-style: solid;
+  padding: 15px;
+}
+
+.clock {
+  border-style: solid;
+  padding: 15px;
+}
+
+.extra-features-wrapper {
+  margin-top: 35px;
+  border-style: solid;
+}
+
+.app-bottom {
+  margin-top: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
